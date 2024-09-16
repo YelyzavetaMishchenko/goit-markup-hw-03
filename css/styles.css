@@ -56,7 +56,7 @@ body {
   }
 
   .container {
-    max-width: 1159px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -68,6 +68,7 @@ body {
 .page-header {
     background: #ffffff;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .page-nav {
@@ -84,6 +85,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .special-color {
@@ -98,7 +100,7 @@ body {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 
@@ -136,7 +138,7 @@ body {
 
 .menu-contacts {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-contacts-item-link{
