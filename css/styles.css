@@ -109,6 +109,8 @@ body {
 .menu {
     display: flex;
     gap: 40px;
+    justify-content: space-between;
+    margin-right: 320px;
 }
 
 
@@ -148,6 +150,7 @@ body {
 .menu-contacts {
     display: flex;
     gap: 40px;
+    justify-content: space-between;
 }
 
 .menu-contacts-item-link{
