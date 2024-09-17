@@ -161,11 +161,7 @@ padding-bottom: 24px;
 /*======= HERO STYLES =======*/
 .hero-section {
     background: #2e2f42;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-bottom: 188px;
-    padding-left: 472px;
-    margin-bottom: 120px;
+   padding: 188px 0;
 }
 
 .main-title {
@@ -186,7 +182,7 @@ padding-bottom: 24px;
     box-sizing: content-box;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     background: #4d5ae5;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -198,7 +194,7 @@ padding-bottom: 24px;
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 4px;
+    border: none;
 }
 
 .btn:hover {
@@ -216,7 +212,7 @@ padding-bottom: 24px;
 /*======= FEATURES STYLES =======*/
 .features-section {
     margin-bottom: 109px;
-    padding-top 120px;
+    margin-top: 120px;
 }
 .features-menu {
     display: flex;
@@ -272,6 +268,10 @@ padding-bottom: 24px;
     gap: 24px;
 }
 
+.card-container {
+    padding: 32px 0
+}
+
 .team-menu-title {
     font-weight: 500;
     font-size: 20px;
@@ -279,7 +279,6 @@ padding-bottom: 24px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
