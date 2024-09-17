@@ -216,10 +216,6 @@ padding-bottom: 24px;
 /*======= /HERO STYLES =======*/
 
 /*======= FEATURES STYLES =======*/
-.features-section {
-    margin-bottom: 109px;
-    margin-top: 120px;
-}
 .features-menu {
     display: flex;
     gap: 24px;
@@ -254,7 +250,7 @@ padding-bottom: 24px;
 /*======= TEAM STYLES =======*/
 .team {
     background: #f4f4fd;
-    padding-top: 60px;
+    
 }
 
 .team-title {
@@ -265,7 +261,7 @@ padding-bottom: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: 120px;
+    margin-top: 60px;
     margin-bottom: 72px;
 }
 
