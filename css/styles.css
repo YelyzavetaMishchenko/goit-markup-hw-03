@@ -311,6 +311,10 @@ padding-bottom: 24px;
 /*======= /TEAM STYLES =======*/
 
 /*======= PORTFOLIO STYLES =======*/
+.portfolio-section {
+    padding: 120px 0 120px 0
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -319,7 +323,7 @@ padding-bottom: 24px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px; padding-bottom: 120px;
+    margin-bottom: 72px
 
 }
 
@@ -327,14 +331,18 @@ padding-bottom: 24px;
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px
 }
 
 .portfolio-menu-item {
     background: #ffffff;
-    width: calc((100%-24px)/3);
-    border-bottom: 1px solid #e7e9fc;
-    border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;
+}
+
+.porfolio-card {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 
 .portfolio-menu-title {
@@ -343,7 +351,6 @@ padding-bottom: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -353,7 +360,6 @@ padding-bottom: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 /*======= /PORTFOLIO STYLES =======*/
