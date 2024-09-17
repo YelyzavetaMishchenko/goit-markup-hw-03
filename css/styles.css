@@ -85,7 +85,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
 }
 
 .special-color {
@@ -134,6 +136,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    margin-left: auto;
 }
 
 .menu-contacts {
@@ -213,10 +216,11 @@ padding-bottom: 24px;
 /*======= FEATURES STYLES =======*/
 .features-section {
     margin-bottom: 109px;
+    padding-top 120px;
 }
 .features-menu {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .features-menu-item {
@@ -248,6 +252,7 @@ padding-bottom: 24px;
 /*======= TEAM STYLES =======*/
 .team {
     background: #f4f4fd;
+    padding-top: 60px;
 }
 
 .team-title {
@@ -264,7 +269,7 @@ padding-bottom: 24px;
 
 .team-menu {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .team-menu-title {
