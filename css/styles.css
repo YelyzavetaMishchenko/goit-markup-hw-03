@@ -222,7 +222,7 @@ padding-bottom: 24px;
 .features-menu {
     display: flex;
     gap: 24px;
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .features-menu-item {
